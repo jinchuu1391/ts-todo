@@ -1,0 +1,14 @@
+.todoItem__text__checked {
+  text-decoration: line-through;
+  width: 100%;
+  padding-left: 0.25rem;
+}
+.todoItem {
+  padding: 0.25rem;
+  display: flex;
+}
+.todoItem__text {
+  width: 100%;
+  padding-left: 0.25rem;
+  text-decoration: none;
+}

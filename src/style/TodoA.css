@@ -1,0 +1,55 @@
+#TodoAContainer {
+  width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+}
+
+#title {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+#todoInsert {
+  display: flex;
+  border-bottom: 1px solid lightblue;
+  align-items: center;
+}
+
+#todoInput {
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  width: 100%;
+  border: none;
+}
+
+#content {
+  background: white;
+  padding: 0.5rem;
+}
+
+.todoItem {
+  padding: 0.25rem;
+  display: flex;
+}
+.todoItem__text {
+  width: 100%;
+  padding-left: 0.25rem;
+}
+#todoInfo {
+  padding-left: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+#filters {
+  list-style: none;
+  display: flex;
+}
+.filter {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.filter:hover {
+  background: cornflowerblue;
+}
