@@ -12,3 +12,15 @@
   padding-left: 0.25rem;
   text-decoration: none;
 }
+.todoEditContainer {
+  display: flex;
+  /* border-bottom: 1px solid lightblue; */
+  align-items: center;
+  width: 100%;
+}
+.todoEdit {
+  padding: 0.25rem;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+}
