@@ -4,7 +4,6 @@ import "../style/TodoA.css";
 import TodoItemComp from './TodoItemComp'
 
 interface TodoItem {
-  index?:number;
   text: string;
   done: boolean;
 }

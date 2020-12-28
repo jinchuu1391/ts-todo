@@ -27,7 +27,8 @@ const TodoItemComp: React.FC<TodoItemProps> = ({ text, index, done, onDeleteClic
     }
     if(event.key === 'Enter'){
       onEdit(index, itemValue)
-      setItemValue('');
+      setEditMode(!editMode)
+      // setItemValue('');
     }
 // onEdit에 바꾸려는 text를 넣어서 실행한다
   }
